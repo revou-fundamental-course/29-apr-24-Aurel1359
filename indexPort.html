@@ -26,31 +26,63 @@
         </header>
 
         <section class="core-content">
-            <div class="core-item-left">1</div> <!--Div 1-->
+            <div class="core-item-left">
+                <div class="banner-item" style="background-image: url(assets/bungaUngu.jpeg);"></div>
+                <!--<div class="banner-item" style="background-image: url(assets/bungaUngu1.jpeg);"></div>
+                <div class="banner-item" style="background-image: url(assets/bungaUngu2.png);"></div>-->
+
+                <p><i>"Liburan jadi menyenangkan bersama Travel Agentku"</i></p>
+                <section class="icon-core">
+                    <div class="core-icon"></div>
+                    <p class="core-icon-item">Florence Hughes</p><br>
+                    <!--<br><p class="core-icon-inform">Ibu Rumah Tangga, 28</p>-->
+                </section>
+            </div> <!--Div 1-->
+
             <div class="core-item-right"> <!--Div 2-->
                 <header>
                     <h2>Contact Us</h2>
                     <hr>
                 </header>
 
-                <section class="item-form">
-                    <label>Your Name : </label><br>
-                    <input type="text" name="name" placeholder="First and last name..." class="contact-inputs" required><br>
+                <form class="item-form">
+                    <div>
+                        <label>Your Name : </label><br>
+                        <input type="text" id="name" name="name" placeholder="First and Last Name..." class="contact-inputs" required /><br>
 
-                    <label>Email Address : </label><br>
-                    <input type="email" name="email" placeholder="Your Email..." class="contact-inputs" required><br>
+                        <label>Email Address : </label><br>
+                        <input type="email" id="email" name="email" placeholder="Your Email..." class="contact-inputs" required><br>
 
-                    <label>What are you interested in?</label><br>
-                    <input type="text" name="name" placeholder="Put Here..." class="contact-inputs" required><br>
+                        <label>What are you interested in?</label><br>
+                        <input type="text" id="text" name="text" placeholder="Put Here..." class="contact-inputs" required><br>
+                    </div>    
 
-                    <br><button type="submit">Send</button>
-                </section>
+                    <br><button type="submit" id="send">Send</button>
+                </form>
             </div>
         </section>
+    </article>
+    <br>
+    <br>
 
-        <section class="our-package-content">
-            <h1>Our Package</h1>
+    <section class="our-package-content">
+        <h1>Our Package</h1>
+    </section>
+
+    <article class="second-content">
+        <section class="content-second">
+            <div class="second-item-left">1
+                
+            </div>
+            <div class="second-item-right">2
+                
+            </div>
         </section>
+        <header>
+            <h1>Your Closing Argument Headline</h1>
+            <h5>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, 
+                convallis tincidunt ricus. Phaselius fringilla odio vel erat fringilla.</h5>
+        </header>
     </article>
 
     <script src="js/scriptPort.js"></script>

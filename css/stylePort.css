@@ -1,6 +1,7 @@
 /*Ini CSS*/
 
 .nav-container {
+    background: linear-gradient(#844caa, #AD88C6);
     display: flex;
     justify-content: space-between;
     padding-left: 32px;
@@ -9,10 +10,20 @@
     padding-bottom: 12px;
 }
 
+.nav-icon {
+    background-image: url(../assets/bunga.jpeg);
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+}
+
 .nav-container > nav > button {
     height: 32px;
-    border: 1px solid black;
-    background-color: white;
+    border: 1px solid #7c47a0;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #7c47a0, #5b416d);
 }
 
 .content-container > header {
@@ -23,9 +34,120 @@
     display: flex;
 }
 
-.core-item {
-    height: 200px;
+.core-item-left {
+    height: 250px;
     width: 100%;
     border: 1px solid;
     margin: 18px;
+}
+
+.banner-item {
+    height: 200px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.icon-core {
+    display: flex;
+}
+.core-icon {
+    background-image: url(../assets/bunga.jpeg);
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+}
+
+.core-item-right {  /*Contact Me*/
+    background: linear-gradient(#5AB2FF,#A0DEFF);
+    height: 330px;
+    width: 100%;
+    border: 1px solid #CAF4FF;
+    margin: 18px;
+}
+
+.core-item-right > header > h2 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #3924ac;
+}
+
+.core-item-right > header > hr {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 5px;
+    background-color: #3924ac;
+    text-align: right;
+}
+
+.contact-inputs {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    color: #666;
+    outline: none;
+    text-align: left;
+}
+
+.item-form {
+    text-align: center;
+}
+
+.item-form > input {
+    height: 32px;
+    width: 50%;
+    margin-left: 8px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+}
+
+.item-form > button {
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #B3C8CF, #BED7DC);
+    cursor: pointer;
+}
+
+.our-package-content {
+    align-content: center;
+    background-color: antiquewhite;
+}
+
+.our-package-content > h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-second {
+    display: flex;
+}
+
+.second-item-left {
+    height: 250px;
+    width: 100%;
+    border: 1px solid;
+    margin: 18px;
+}
+
+.second-item-right {
+    height: 250px;
+    width: 100%;
+    border: 1px solid;
+    margin: 18px;
+}
+
+.second-content > header {
+    text-align: center;
 }
