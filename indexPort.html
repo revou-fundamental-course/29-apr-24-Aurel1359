@@ -3,13 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylePort.css">
     <title>My Portfolio</title>
 </head>
-<body>
-    <header>
-        <div>Ini logo</div>
 
-        <button></button><button></button><button></button>
+<body>
+    <header class="nav-container">
+        <div class="nav-icon"></div> <!--Ini Logo-->
+
+        <nav>
+            <button style="color: violet;">Home</button>
+            <button style="color: violet;">Our Package</button>
+            <button style="color: violet;">Call Us</button>
+        </nav>
     </header>
+    <hr>
+
+    <article class="content-container">
+        <header>
+            <h1>My Portfolio</h1>
+            <h3>Your Happiness is Our Happiness</h3>
+        </header>
+
+        <section class="core-content">
+            <div class="core-item-left">1</div> <!--Div 1-->
+            <div class="core-item-right"> <!--Div 2-->
+                <header>
+                    <h2>Contact Us</h2>
+                    <hr>
+                </header>
+
+                <section class="item-form">
+                    <label>Your Name : </label><br>
+                    <input type="text" name="name" placeholder="First and last name..." class="contact-inputs" required><br>
+
+                    <label>Email Address : </label><br>
+                    <input type="email" name="email" placeholder="Your Email..." class="contact-inputs" required><br>
+
+                    <label>What are you interested in?</label><br>
+                    <input type="text" name="name" placeholder="Put Here..." class="contact-inputs" required><br>
+
+                    <br><button type="submit">Send</button>
+                </section>
+            </div>
+        </section>
+
+        <section class="our-package-content">
+            <h1>Our Package</h1>
+        </section>
+    </article>
+
+    <script src="js/scriptPort.js"></script>
 </body>
 </html>
